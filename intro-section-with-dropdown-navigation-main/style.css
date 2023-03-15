@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+.navbar{
+    width: 100%;
+    height: 4.5rem;
+    display: flex;
+    margin-top: 0.5rem;
+}
+
+
+.navbar-left{
+    width: 70%;
+    height: 100%;
+    display: flex;
+}
+
+.navbar-logo{
+    width: 10%;
+    padding-top:2rem ;
+    padding-left: 0.5rem;
+    margin-left: 2rem;
+}
+
+
+.navbar-brand{
+    margin-left: 2rem;
+    padding-top: 2.2rem;
+}
+
+
+.navbar-brand a{
+    text-decoration:none ;
+    color: black;
+    margin-left: 1rem;
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 600;
+
+}
+
+
+.navbar-right{
+    width: 30%;
+    display: flex;
+
+}
+
+
+.navbar-right-login{
+    width: 25%;
+    height: 100%;
+    margin-left: 12rem;
+    padding-top: 2.2rem;
+    font-weight: 600;
+}
+
+
+.navbar-right-login a{
+    text-decoration: none;
+    font-family: 'Epilogue', sans-serif;
+    color: black;
+
+}
+
+
+.navbar-right-Register{
+    width: 25%;
+    height: 100%;
+    padding-top: 2rem;
+}
+
+
+
+
+
+.navbar-right-Register a{
+    border: 1px solid hsla(0, 0%, 98%, 0);
+    font-family: 'Epilogue', sans-serif;
+    background-color: rgba(255, 0, 0, 0) ;
+    font-weight: 600;
+    padding: 0.7rem 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 1px 1px black;
+    background-color: rgba(255, 0, 0, 0);
+    text-decoration: none;
+    color: black;
+
+    
+}
+
+
+main{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    margin-top: 3rem;
+}
+
+
+.main-right{
+    width: 50%;
+    height: 100%;
+    margin-left: 2.5rem;
+}
+
+
+.title-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 40vh;
+}
+
+
+.main-right-title{
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+
+
+h1{
+    font-size: 10vh;
+    font-family: 'Epilogue', sans-serif;
+
+}
+
+
+.main-right-paragraph-container{
+    display: flex;
+    margin-left: 6.9rem;
+}
+
+
+
+.main-right-paragraph{
+    width: 58%;
+    height: 10vh;
+}
+
+
+.main-right-paragraph p{
+    font-size: medium;
+    font-family: 'Epilogue', sans-serif;
+    color: hsl(0, 0%, 41%);
+    font-weight: 400;
+
+}
+
+
+
+.main-right-Learnmore-conatiner{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.main-right-Learn-more{
+    width: 58%;
+    height: 100%;
+    padding-top: 2rem;
+    margin-right: 3rem;
+}
+
+
+.main-right-Learn-more a{
+    border: 1px solid hsla(0, 0%, 98%, 0);
+    font-family: 'Epilogue', sans-serif;
+    background-color: hsl(0, 0%, 8%) ;
+    padding: 0.7rem 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 1px 1px black;
+    text-decoration: none;
+    color: rgb(245, 240, 240);
+
+}
+
+
+.main-right-logo-container{
+    height: 19Vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.main-right-logo{
+    width: 65%;
+    height: 100%;
+    padding-top: 5rem;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1.5rem;
+}
+
+
+
+.main-right-logo img{
+    background-size: cover;
+    background-position: center;
+    margin-left: 1rem;
+    font-size: larger ;
+    
+}
+
+
+
+.main-left{
+    width: 50%;
+    height: 100%;
+    padding-left: 8rem;
+    margin-left: 2rem;
+}
+
+
+.main-left img{
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+
+
